@@ -16,6 +16,15 @@ public class ObjectAnimatorActivity extends AppCompatActivity {
 
 
     //简单的方式
+
+    /**
+     * translationX translationY      view从他布局容器的左上角坐标开始的位置
+     * rotation rotationX rotationY   view围绕支点进行2D和3D旋转
+     * scaleX scaleY                  view围绕支点进行2D缩放
+     * pivotX pivotY                  支点位置进行缩放和旋转，默认是view的中心点
+     * alpha                          view的透明度
+     * @param v
+     */
 //    public void rotateyAnimRun(View v){
 //        ObjectAnimator
 //                .ofFloat(v, "rotationX", 0.0f, 360.0f)

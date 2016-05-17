@@ -29,6 +29,12 @@
             android:layout_height="wrap_content"
             android:text="抛物线"/>
 
+        <Button
+            android:onClick="cleanRun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="淡出且删除"/>
+
     </LinearLayout>
 
 

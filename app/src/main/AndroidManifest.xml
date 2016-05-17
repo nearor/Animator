@@ -8,15 +8,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ObjectAnimatorActivity">
+        <activity android:name=".ObjectAnimatorActivity"></activity>
+        <activity android:name=".valueAnimatorActivity">
 
         </activity>
-        <activity android:name=".valueAnimatorActivity">
+        <activity android:name=".AnimatorSetActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
