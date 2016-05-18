@@ -1,6 +1,7 @@
 package com.nearor.myapplicationview;
 
 import android.animation.LayoutTransition;
+import android.animation.ObjectAnimator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -73,6 +74,16 @@ public class LayoutAnimationsActivity extends AppCompatActivity implements Compo
                 LayoutTransition.APPEARING,
                 mAppear.isChecked() ? layoutTransition.getAnimator(LayoutTransition.APPEARING) : null
         );
+
+        //当然了动画支持自定义，还支持设置时间，比如我们修改下，添加的动画为:
+//        layoutTransition.setAnimator(
+//                LayoutTransition.APPEARING,
+//                mAppear.isChecked() ? ObjectAnimator.ofFloat(this,"scaleX",0,1) : null
+//        );
+
+
+
+
 
         layoutTransition.setAnimator(
                 LayoutTransition.CHANGE_APPEARING,

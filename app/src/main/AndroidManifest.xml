@@ -9,13 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ObjectAnimatorActivity" />
-        <activity android:name=".valueAnimatorActivity">
-
-        </activity>
-        <activity android:name=".AnimatorSetActivity">
-
-        </activity>
+        <activity android:name=".valueAnimatorActivity"></activity>
+        <activity android:name=".AnimatorSetActivity"></activity>
         <activity android:name=".LayoutAnimationsActivity">
+
+        </activity>
+        <activity android:name=".ViewAnimateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
